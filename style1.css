@@ -1,0 +1,79 @@
+/* Γενικά Στυλ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    min-height: 100vh; /* Απαλό γαλάζιο */
+}
+
+header {
+    background-color: #022038; /* Σκούρο μπλε */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+/* Κουμπιά */
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #5cb85c; /* Πράσινο */
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #196819; /* Πιο σκούρο πράσινο */
+}
+
+/* Πίνακας */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ελαφριά σκιά */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #022038; /* Σκούρο μπλε */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Απαλό γκρι */
+}
+
+/* Footer */
+footer {
+    background-color: #022038; /* Σκούρο μπλε */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
